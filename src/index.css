@@ -1,0 +1,94 @@
+@import "/node_modules/@fontsource/poppins";
+@import "/node_modules/@fontsource/poppins/300.css";
+@import "/node_modules/@fontsource/poppins/400.css";
+@import "/node_modules/@fontsource/poppins/500.css";
+@import "/node_modules/@fontsource/poppins/600.css";
+@import "/node_modules/@fontsource/poppins/700.css";
+@import "/node_modules/@fontsource/poppins/800.css";
+@import "/node_modules/@fontsource/poppins/800.css";
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+/* toast */
+.custom_toast {
+  width: 520px !important;
+}
+
+/* tabs antd */
+.customTabs.ant-tabs.ant-tabs-top {
+  min-width: 600px;
+}
+.ant-tabs-nav-list {
+  width: 388px !important;
+}
+
+.ant-tabs-nav {
+    width: 367px !important;
+    margin: auto !important;
+}
+
+.customTabs .ant-tabs-nav-wrap {
+  border: solid 2px black;
+}
+
+.customTabs .ant-tabs-tab {
+  border-right: solid 2px black;
+  border-bottom: none;
+  margin: 0 !important;
+  padding: 10px 16px;
+}
+.ant-tabs-tab.ant-tabs-tab-active {
+  background-color:#a3cff3 ;
+}
+.customTabs .ant-tabs-tab-btn {
+  color: black !important;
+}
+.customTabs .ant-tabs-ink-bar.ant-tabs-ink-bar-animated {
+  display: none;
+}
+
+.ant-col {
+  font-size: 16px;
+}
+
+.errors {
+  font-size: 14px;
+  font-weight: 400;
+  color: red;
+  font-style: italic;
+}
+select, select * {
+  width: 100%;
+  font-size: 16px;
+  padding:0 4px;
+  background-color: #fff;
+  border: 2px solid #000;
+  color: #000;
+  cursor: pointer;
+  line-height: 1.5rem;
+  min-width: 200px;
+  max-width: 350px;
+}
+.select-selected {
+  background-color: rgb(233, 28, 113);
+}
+input[type=number] {
+  border: 2px solid #000;
+  width: 80px;
+  padding: 0 4px;
+  font-size: 16px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+   opacity: 1;
+}
