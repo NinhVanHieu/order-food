@@ -70,7 +70,7 @@ const StepThree: React.ForwardRefRenderFunction<HTMLButtonElement, Props> = (
         }
       }}
     >
-      {({ values, errors, touched }) => {
+      {({ values }) => {
         return (
           <div>
             <Form className="flex flex-col gap-2 mt-[-40px]">
